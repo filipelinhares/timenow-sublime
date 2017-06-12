@@ -1,0 +1,19 @@
+[
+    {
+        "caption": "Tools",
+        "mnemonic": "T",
+        "id": "tools",
+        "children":
+        [
+            { 
+              "caption": "Time now",
+              "id": "tn",
+              "children": [
+            { "command": "tn_stamp", "caption": "Insert stamp" },
+            { "command": "tn_date", "caption": "Insert date" },
+            { "command": "tn_time", "caption": "Insert time" },
+            { "command": "tn_datetime", "caption": "Insert datetime" }
+          ]}
+        ]
+    }
+]
