@@ -1,6 +1,6 @@
 # `tn` - timenow 
 
-Sublime text plugin to insert **timestamp**, **date**, **time** and **datetime**.
+Sublime Text plugin to insert **timestamp**, **date**, **time** and **datetime**.
 
 ```python
 stamp_format    = "%y%m%d%H%M%S"    # 131002102355
