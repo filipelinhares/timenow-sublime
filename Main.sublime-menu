@@ -1,12 +1,12 @@
 [
     {
-        "caption": "Tools",
-        "mnemonic": "T",
-        "id": "tools",
+        "caption": "Edit",
+        "mnemonic": "E",
+        "id": "edit",
         "children":
         [
             { 
-              "caption": "Time now",
+              "caption": "Timenow",
               "id": "tn",
               "children": [
             { "command": "tn_stamp", "caption": "Insert stamp" },
@@ -14,6 +14,39 @@
             { "command": "tn_time", "caption": "Insert time" },
             { "command": "tn_datetime", "caption": "Insert datetime" }
           ]}
+        ]
+    },
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Timenow",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/Timenow/Timenow.sublime-settings"},
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/Timenow.sublime-settings"},
+                                "caption": "Settings – User"
+                            },
+                        ]
+
+                    }
+                ]
+            }
         ]
     }
 ]
