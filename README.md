@@ -10,6 +10,9 @@ datetime_format = "%Y-%m-%d %H:%M"  # 2017-10-02 10:24
 ```
 
 ### Install
+1. Open [packagecontrol.io](packagecontro.io) - `ctrl/cmd shift p`
+2. Type Timenow
+3. :white_check_mark: Installed
 
 ### Usage
 ```
@@ -20,10 +23,6 @@ Edit -> Timenow -> Insert option
 ```
 Preferences -> Package Settings -> Timenow -> Settings User
 ```
-
-### To do
-- [ ] Add to [packagecontrol.io](packagecontrol.io)
-- [x] Add options to customize the formats
 
 ## License
 
