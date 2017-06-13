@@ -12,13 +12,18 @@ datetime_format = "%Y-%m-%d %H:%M"  # 2017-10-02 10:24
 ### Install
 
 ### Usage
+```
+Edit -> Timenow -> Insert option
+```
 
-`Tools -> tn -> Insert option`
+**Custom formats**
+```
+Preferences -> Package Settings -> Timenow -> Settings User
+```
 
 ### To do
-
 - [ ] Add to [packagecontrol.io](packagecontrol.io)
-- [ ] Add options to customize the formats
+- [x] Add options to customize the formats
 
 ## License
 

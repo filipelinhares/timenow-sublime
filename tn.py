@@ -2,10 +2,11 @@ import sublime
 import sublime_plugin
 import time
 
-date_format = "%Y-%m-%d"            # 2013-10-02
-time_format = "%H:%M:%S"            # 10:24:01
-datetime_format = "%Y-%m-%d %H:%M"  # 2013-10-02 10:24
-stamp_format = "%y%m%d%H%M%S"       # 131002102355
+settings = sublime.load_settings('Timenow.sublime-settings')
+date_format = settings.get('date_format')
+time_format = settings.get('time_format')
+datetime_format = settings.get('datetime_format')
+stamp_format = settings.get('stamp_format')
 
 
 class tn_stampCommand(sublime_plugin.TextCommand):
