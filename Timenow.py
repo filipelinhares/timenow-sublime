@@ -12,30 +12,40 @@ stamp_format = settings.get('stamp_format')
 class tn_stampCommand(sublime_plugin.TextCommand):
 
     def run(self, edit):
-        sels = self.view.sel()
-        for sel in sels:
-            self.view.replace(edit, sel, time.strftime(stamp_format))
+        for s in self.view.sel():
+            if s.empty():
+                self.view.insert(edit, s.a, time.strftime(stamp_format))
+            else:
+                self.view.replace(edit, s, time.strftime(stamp_format))
 
 
 class tn_dateCommand(sublime_plugin.TextCommand):
 
     def run(self, edit):
-        sels = self.view.sel()
-        for sel in sels:
-            self.view.replace(edit, sel, time.strftime(date_format))
+        for s in self.view.sel():
+            if s.empty():
+                self.view.insert(edit, s.a, time.strftime(date_format))
+            else:
+                self.view.replace(edit, s, time.strftime(date_format))
 
 
 class tn_timeCommand(sublime_plugin.TextCommand):
 
     def run(self, edit):
-        sels = self.view.sel()
-        for sel in sels:
-            self.view.replace(edit, sel, time.strftime(time_format))
+        for s in self.view.sel():
+            if s.empty():
+                self.view.insert(edit, s.a, time.strftime(date_format))
+            else:
+                self.view.replace(edit, s, time.strftime(date_format))
 
 
 class tn_datetimeCommand(sublime_plugin.TextCommand):
 
     def run(self, edit):
-        sels = self.view.sel()
-        for sel in sels:
-            self.view.replace(edit, sel, time.strftime(datetime_format))
+        for s in self.view.sel():
+            if s.empty():
+                self.view.insert(edit, s.a, time.strftime(date_format))
+            else:
+                self.view.replace(edit, s, time.strftime(date_format))
+
+
