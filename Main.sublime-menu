@@ -5,7 +5,7 @@
         "id": "edit",
         "children":
         [
-            { 
+            {
               "caption": "Timenow",
               "id": "tn",
               "children": [

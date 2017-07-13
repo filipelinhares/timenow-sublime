@@ -1,14 +1,16 @@
-/* Mre about those patterns - http://devdocs.io/python~3.6/library/time#time.strftime
+/*
+ * More about those patterns - http://devdocs.io/python~3.6/library/time#time.strftime
  *
- * date - 2013-10-02
- * time - 10:24:01
+ * date     - 2013-10-02
+ * time     - 10:24:01
  * datetime - 2013-10-02 10:24
- * stamp - 131002102355
-**/
+ * stamp    - 131002102355
+ *
+ */
 
 {
-	"date_format": "%Y-%m-%d:%S",
-	"time_format": "%H:%M:%S",
-	"datetime_format": "%Y-%m-%d %H:%M",
-	"stamp_format": "%y%m%d%H%M%S"
+  "date_format": "%Y-%m-%d:%S",
+  "time_format": "%H:%M:%S",
+  "datetime_format": "%Y-%m-%d %H:%M",
+  "stamp_format": "%y%m%d%H%M%S"
 }
