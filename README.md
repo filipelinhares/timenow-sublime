@@ -2,28 +2,27 @@
 
 Sublime Text plugin to insert **timestamp**, **date**, **time** and **datetime**.
 
-```python
-stamp_format    = "%y%m%d%H%M%S"    # 131002102355
-date_format     = "%Y-%m-%d"        # 2013-10-02
-time_format     = "%H:%M:%S"        # 10:24:01
-datetime_format = "%Y-%m-%d %H:%M"  # 2017-10-02 10:24
-```
-
 ### Install
-1. Open [packagecontrol.io](packagecontro.io) - `ctrl/cmd shift p`
+1. Open [packagecontrol.io](packagecontro.io) - (<kbd>ctrl</kbd> or <kbd>⌘</kbd>) +  <kbd>⇧</kbd> + <kbd>p</kbd>
 2. Type Timenow
-3. :white_check_mark: Installed
+3. :white_check_mark: Installed!
 
 ### Usage
-```
-Edit -> Timenow -> Insert option
+`Edit` ⇢ `Timenow`
+
+![Timenow usage](media/screenshot.png)
+
+### Custom formats
+`Preferences` ⇢ `Package Settings` ⇢ `Timenow` ⇢ `Settings User`
+
+```python
+{
+  "date_format":     "%Y-%m-%d:%S",
+  "time_format":     "%H:%M:%S",
+  "datetime_format": "%Y-%m-%d %H:%M",
+  "stamp_format":    "%y%m%d%H%M%S"
+}
 ```
 
-**Custom formats**
-```
-Preferences -> Package Settings -> Timenow -> Settings User
-```
-
-## License
-
+### License
 ● **filipe** - [WTFPL](LICENSE.md)
