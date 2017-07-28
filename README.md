@@ -13,11 +13,13 @@ Sublime Text plugin to insert **timestamp**, **date**, **time** and **datetime**
 ![Timenow usage](media/screenshot.png)
 
 ### Custom keymaps
+其它命令： `tn_stamp`  `tn_time`  `tn_datetime`  
+按照下面的写法添加你想要的快捷键即可。  
+苹果系统要把`ctrl`换成`super`  
+
 ```json
 [
     {
-        // 其它命令： tn_stamp tn_time tn_datetime
-        // 按照下面的写法添加你想要的快捷键即可。
         "keys": ["ctrl+t"], "command": "tn_date"
     }
 ]
