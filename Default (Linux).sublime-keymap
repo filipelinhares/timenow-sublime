@@ -1,0 +1,7 @@
+[
+    {
+    	// 其它命令： tn_stamp tn_time tn_datetime
+    	// 按照下面的写法添加你想要的快捷键即可。
+        "keys": ["ctrl+t"], "command": "tn_date"
+    }
+]
