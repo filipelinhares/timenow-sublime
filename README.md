@@ -17,7 +17,7 @@ Sublime Text plugin to insert **timestamp**, **date**, **time** and **datetime**
 
 ```python
 {
-  "date_format":     "%Y-%m-%d:%S",
+  "date_format":     "%Y-%m-%d",
   "time_format":     "%H:%M:%S",
   "datetime_format": "%Y-%m-%d %H:%M",
   "stamp_format":    "%y%m%d%H%M%S"
