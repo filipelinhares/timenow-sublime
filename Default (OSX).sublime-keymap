@@ -1,0 +1,5 @@
+[
+    {
+        "keys": ["super+t"], "command": "tn_date"
+    }
+]

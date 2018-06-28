@@ -24,5 +24,19 @@ Sublime Text plugin to insert **timestamp**, **date**, **time** and **datetime**
 }
 ```
 
+### Custom key bindings
+`Preferences` ⇢ `Key Bindings`  
+
+Add your key binding in the `Default (Windows).sublime-keymap--User` like this.
+
+```json
+[
+    {"keys": ["ctrl+t"], "command": "tn_date"}
+]
+```
+(change `ctrl` to `super` when you use OSX)
+
+**Commands**: `tn_date`  `tn_stamp`  `tn_time`  `tn_datetime`  
+
 ### License
 ● **filipe** - [WTFPL](LICENSE.md)
